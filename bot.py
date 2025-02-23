@@ -26,7 +26,7 @@ async def callback_handler(call: types.CallbackQuery):
     if call.data == "earn":
         await call.message.answer("Complete tasks & earn!")
     elif call.data == "refer":
-        await call.message.answer(f"Invite friends & earn! Your referral link: https://t.me/yourbot?start={call.from_user.id}")
+        await call.message.answer(f"Invite friends & earn! Your referral link: https://t.me/s4capitalsearn_bot?start={call.from_user.id}")
     elif call.data == "withdraw":
         await call.message.answer("Withdraw system (Manual bKash)")
     await call.answer()
